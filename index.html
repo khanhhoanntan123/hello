@@ -1,0 +1,26 @@
+<doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="login">
+	  <p> username:  <input type="text" id="hello1"> </p>
+	  <p> password: <input type="password" id="hello2"> </p>
+	   <a href= "#" id="concac" target="__blank"><button onclick="myfunction()"> sumbit </button> </a>	
+	  <script>
+	  	function myfunction(){
+	  	x = document.getElementById("hello1").value;
+	  	y = document.getElementById("hello2").value;
+	  	if(x == "nhamtan" && y == "nhamtan")
+	  		document.getElementById("concac").href = "https://www.facebook.com/";
+	  	else
+	  		alert("WA");
+	  }
+	  </script>
+	</div>
+</body>
+</html>
